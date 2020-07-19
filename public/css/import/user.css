@@ -1,0 +1,229 @@
+#wp__content .user-app {
+  width: 100vw;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#wp__content .user-app .data-app-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#wp__content .user-app .data-app-bg img {
+  width: 100%;
+  height: 100%;
+}
+
+#wp__content .user-app .data-app-bg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#wp__content .user-app .user__app-header .user__app-header-title {
+  padding: 60px 0;
+  text-align: center;
+  color: var(--main-color);
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+#wp__content .user-app .user__app-header .user__app-header-title a {
+  color: var(--main-color);
+}
+
+#wp__content .user-app .user__app-header .user__app-header-title a span {
+  margin-right: 10px;
+}
+
+#wp__content .user-app .user__app-header .user__app-header-title .app__curr {
+  border-bottom: 3px solid var(--main-color);
+  padding-bottom: 5px;
+}
+
+#wp__content .user-app .user__app-content .user__app-content-left .app-content-banner {
+  width: 100%;
+  height: 500px;
+}
+
+#wp__content .user-app .user__app-content .user__app-content-left .app-content-banner .app-content__banner-img {
+  height: 100%;
+}
+
+#wp__content .user-app .user__app-content .user__app-content-left .app-content-banner .app-content__banner-img .app-content-banner-thumb {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#wp__content .user-app .user__app-content .user__app-content-left .app-content-banner .app-content__banner-img .app-content-banner-thumb img {
+  width: 100%;
+  height: 100%;
+}
+
+#wp__content .user-app .user__app-content .user__app-content-left .app-content-banner .app-content__banner-img .app-content-banner-thumb::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#wp__content .user-app .user__app-content .user__app-content-left .app-content-banner .app-content__banner-txt {
+  top: 30%;
+  left: 10%;
+  height: 70%;
+  width: 70%;
+}
+
+#wp__content .user-app .user__app-content .user__app-content-left .app-content-banner .app-content__banner-txt {
+  color: var(--main-color);
+  line-height: 1.4;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#wp__content .user-app .user__app-content .user__app-content-left .app-content-banner .app-content__banner-txt p {
+  text-align: justify;
+}
+
+#wp__content .user-app .user__app-content .user__app-content-right .app-content__formInner {
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#wp__content .user-app .user__app-content .user__app-content-right .app-content__formInner .wrapper__form-user .form__input-group {
+  padding: 10px 0;
+}
+
+#wp__content .user-app .user__app-content .user__app-content-right .app-content__formInner .wrapper__form-user .form__input-group .form-group input {
+  width: 70%;
+  height: 50px;
+  padding: 0 15px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 200;
+  background-color: transparent;
+  border-bottom: 5px solid #fff;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto 20px;
+  display: block;
+  outline: none;
+  letter-spacing: 1px;
+}
+
+#wp__content .user-app .user__app-content .user__app-content-right .app-content__formInner .wrapper__form-user .form__input-group .form-group input:hover {
+  border-bottom: 5px solid #3970b0;
+}
+
+#wp__content .user-app .user__app-content .user__app-content-right .app-content__formInner .wrapper__form-user .form__input-group .form-group input::-webkit-input-placeholder {
+  color: #fff !important;
+}
+
+#wp__content .user-app .user__app-content .user__app-content-right .app-content__formInner .wrapper__form-user .form__input-group .form-group input:hover::-webkit-input-placeholder {
+  color: #3970b0 !important;
+}
+
+#wp__content .user-app .user__app-content .user__app-content-right .app-content__formInner .wrapper__form-user .form__input-group .form-group input:focus::-webkit-input-placeholder {
+  color: #fff !important;
+  visibility: visible;
+}
+
+#wp__content .user-app .user__app-content .user__app-content-right .app-content__formInner .wrapper__form-user .form__input-group .form-group label[for="rememterMe"] {
+  cursor: pointer;
+}
+
+#wp__content .user-app .user__app-content .user__app-content-right .app-content__formInner .wrapper__form-user .form__input-group .form-group label[for="rememterMe"] span.text {
+  color: var(--main-color);
+  letter-spacing: 1px;
+  font-size: .8rem;
+}
+
+#wp__content .user-app .user__app-content .user__app-content-right .app-content__formInner .wrapper__form-user .form__input-group .form-group label[for="rememterMe"] .checkBox__RememterMe {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #9f9f9f;
+  margin-right: 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  position: relative;
+}
+
+#wp__content .user-app .user__app-content .user__app-content-right .app-content__formInner .wrapper__form-user .form__input-group .form-group label[for="rememterMe"] input:checked ~ .checkBox__RememterMe {
+  background-color: #3970b0;
+  border: 1px solid #3970b0;
+}
+
+#wp__content .user-app .user__app-content .user__app-content-right .app-content__formInner .wrapper__form-user .form__input-group .form-group label[for="rememterMe"] input:checked ~ .checkBox__RememterMe::after {
+  content: "";
+  width: 6px;
+  height: 12px;
+  position: absolute;
+  top: 2px;
+  left: 6px;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+  border-bottom: 2px solid var(--main-color);
+  border-right: 2px solid var(--main-color);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+#wp__content .user-app .user__app-content .user__app-content-right .app-content__formInner .wrapper__form-user .form__input-group .form__input-control button {
+  width: 70%;
+  margin: 20px auto;
+  display: block;
+  height: 50px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: normal;
+  color: #fff;
+  background-color: #3970b0;
+  border-color: transparent;
+  font-family: 'Raleway', sans-serif;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+#wp__content .user-app .user__app-content .user__app-content-right .app-content__formInner .wrapper__form-user .form__input-group .form__input-control .operations a {
+  padding: 0 10px;
+  color: #3970b0;
+  font-size: .8rem;
+}
+/*# sourceMappingURL=user.css.map */

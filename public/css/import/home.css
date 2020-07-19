@@ -1,0 +1,261 @@
+#wp__content .section-content .wp-flash__sale {
+  background-color: var(--main-color);
+}
+
+#wp__content .home__main-banner {
+  margin-bottom: 20px;
+}
+
+#wp__content .home__main-banner .home__main-banner-left #banner-header .carousel-item {
+  overflow: hidden;
+}
+
+#wp__content .home__main-banner .home__main-banner-left #banner-header .carousel-item .banner__header-link {
+  height: 100%;
+}
+
+#wp__content .home__main-banner .home__main-banner-left #banner-header .carousel-item .banner__header-link span.thumb-img {
+  display: block;
+  height: 100%;
+  overflow: hidden;
+}
+
+#wp__content .home__main-banner .home__main-banner-left #banner-header .carousel-item .banner__header-link span.thumb-img img {
+  height: 100%;
+}
+
+#wp__content .home__main-banner .home__main-banner-right {
+  height: 500px;
+}
+
+#wp__content .home__main-banner .home__main-banner-right .banner__right-Inner {
+  height: 100%;
+  overflow: hidden;
+}
+
+#wp__content .home__main-banner .home__main-banner-right .banner__right-Inner .banner__right-item {
+  height: 50%;
+}
+
+#wp__content .home__main-banner .home__main-banner-right .banner__right-Inner .banner__right-item:nth-child(1) {
+  padding-bottom: 7px;
+}
+
+#wp__content .home__main-banner .home__main-banner-right .banner__right-Inner .banner__right-item:nth-child(2) {
+  padding-top: 7px;
+}
+
+#wp__content .home__main-banner .home__main-banner-right .banner__right-Inner .banner__right-item .banner__right-thumb {
+  height: 100%;
+}
+
+#wp__content .home__main-banner .home__main-banner-right .banner__right-Inner .banner__right-item .banner__right-thumb .banner__right-link {
+  height: 100%;
+}
+
+#wp__content .home__main-banner .home__main-banner-right .banner__right-Inner .banner__right-item .banner__right-thumb .banner__right-link img {
+  height: 100%;
+  width: 100%;
+}
+
+#wp__content .section-banner-flash-sale .discount__banner-content .discount__banner-thumb {
+  display: block;
+  width: 100%;
+}
+
+#wp__content .section-banner-flash-sale .discount__banner-content .discount__banner-thumb img {
+  width: 100% !important;
+  height: auto !important;
+}
+
+#wp__content .section-content {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+#wp__content .section-content .wp-flash__sale {
+  padding: 20px 10px !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#wp__content .section-content.section--flash-sale .owl-nav {
+  display: block !important;
+}
+
+#wp__content .section-content.section--flash-sale .owl-nav button {
+  background-color: #c7c7c7;
+  border-radius: 100%;
+  position: absolute;
+  top: 34%;
+  color: #fff;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+}
+
+#wp__content .section-content.section--flash-sale .owl-nav button:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+#wp__content .section-content.section--flash-sale .owl-nav button.owl-prev {
+  left: -15px;
+}
+
+#wp__content .section-content.section--flash-sale .owl-nav button.owl-next {
+  right: -15px;
+}
+
+#wp__content .section-content.section--flash-sale .flash__sale-title {
+  padding: 15px;
+}
+
+#wp__content .section-content.section--flash-sale .flash__sale-title .title__sale-item.title--sale-left .sale__item-time .sale__deadline-title {
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  margin-right: 10px;
+  font-family: "Montserrat-Bold";
+  font-size: 1.2rem;
+}
+
+#wp__content .section-content.section--flash-sale .flash__sale-title .title__sale-item.title--sale-left .sale__item-time .sale__deadline-time {
+  color: var(--main-color);
+  letter-spacing: 3px;
+  font-family: "BebasNeue-Regular";
+  font-weight: 100;
+}
+
+#wp__content .section-content.section--flash-sale .flash__sale-title .title__sale-item.title--sale-left .sale__item-time .sale__deadline-time .deadline__time-item:not(.deadline--seconds)::after {
+  content: ":";
+  color: #333;
+}
+
+#wp__content .section-content.section--flash-sale .flash__sale-title .title__sale-item.title--sale-left .sale__item-time .sale__deadline-time .time--item {
+  background-color: #333;
+  border-radius: 5px;
+  position: relative;
+}
+
+#wp__content .section-content.section--flash-sale .flash__sale-title .title__sale-item.title--sale-right a.sale__item-sub-title {
+  display: inline;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: #666;
+}
+
+#wp__content .section-content.section--flash-sale .flash__sale-title .title__sale-item.title--sale-right a.sale__item-sub-title:hover {
+  text-decoration: underline !important;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+#wp__content .section-content.section--flash-sale .flash__sale-content .carousel__flash-sale .owl-dots {
+  display: none;
+}
+
+#wp__content .section-content.section--flash-sale .flash__sale-content .flash__sale-item {
+  -webkit-transition: -webkit-box-shadow .5s;
+  transition: -webkit-box-shadow .5s;
+  transition: box-shadow .5s;
+  transition: box-shadow .5s, -webkit-box-shadow .5s;
+  margin: 10px 0;
+}
+
+#wp__content .section-content.section--flash-sale .flash__sale-content .flash__sale-item .sale__item-img .thumb-img {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+#wp__content .section-content.section--flash-sale .flash__sale-content .flash__sale-item .sale__item-img .thumb-img img {
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  -webkit-transition: -webkit-transform .75s;
+  transition: -webkit-transform .75s;
+  transition: transform .75s;
+  transition: transform .75s, -webkit-transform .75s;
+}
+
+#wp__content .section-content.section--flash-sale .flash__sale-content .flash__sale-item .cateogry__item-content {
+  padding: 10px;
+  width: 100%;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#wp__content .section-content.section--flash-sale .flash__sale-content .flash__sale-item .cateogry__item-content .content__name-title {
+  color: var(--main-color);
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: .8rem;
+}
+
+#wp__content .section-content.section--flash-sale .flash__sale-content .flash__sale-item .cateogry__item-content .see-more {
+  font-size: .7rem;
+  background-color: var(--primary-subColor);
+  color: var(--main-color);
+  padding: 5px 5px;
+  border-radius: 3px;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+#wp__content .section-content.section--flash-sale .flash__sale-content .flash__sale-item .sale__item-content .price .price__sale {
+  color: #d53332;
+  letter-spacing: 1px;
+  padding-right: 5px;
+  font-family: "Montserrat-Regular";
+  font-weight: bold;
+}
+
+#wp__content .section-content.section--flash-sale .flash__sale-content .flash__sale-item .sale__item-content .price .price__sale small {
+  vertical-align: text-top;
+  font-size: smaller;
+}
+
+#wp__content .section-content.section--flash-sale .flash__sale-content .flash__sale-item .sale__item-content .price .price__retail {
+  color: var(--main-textColor);
+  text-decoration: line-through;
+}
+
+#wp__content .section-content.section--flash-sale .flash__sale-content .flash__sale-item .sale__item-content .progress_sale {
+  position: relative;
+  margin: 10px 0;
+}
+
+#wp__content .section-content.section--flash-sale .flash__sale-content .flash__sale-item .sale__item-content .progress_sale .progress__total {
+  display: block;
+  width: 100%;
+  height: 6px;
+  background-color: #e1e1e178;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#wp__content .section-content.section--flash-sale .flash__sale-content .flash__sale-item .sale__item-content .progress_sale .progress__sold {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--primary-color);
+  height: 100%;
+  border-radius: 5px;
+}
+
+#wp__content .section-content.section--flash-sale .flash__sale-content .flash__sale-item .sale__item-content .sold span {
+  color: #000;
+  letter-spacing: 1px;
+}
+
+#wp__content .section-content.section--flash-sale .flash__sale-content .flash__sale-item:hover {
+  -webkit-box-shadow: 0 0 15px #d8d8d8;
+          box-shadow: 0 0 15px #d8d8d8;
+  -webkit-transition: -webkit-box-shadow .25s;
+  transition: -webkit-box-shadow .25s;
+  transition: box-shadow .25s;
+  transition: box-shadow .25s, -webkit-box-shadow .25s;
+}
+/*# sourceMappingURL=home.css.map */

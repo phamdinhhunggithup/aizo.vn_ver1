@@ -1,0 +1,182 @@
+#wp__content .section-account-layout .info__account-header, #wp__content .section-account-layout .info__account-content {
+  background-color: var(--main-color);
+  padding: 10px;
+}
+
+#wp__content .section-account-layout {
+  margin-bottom: 30px;
+}
+
+#wp__content .section-account-layout .info__account-header .info__account-title {
+  color: var(--secondary-textColor);
+}
+
+#wp__content .section-account-layout .info__account-header .info__account-title .icon {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: var(--main-color);
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  line-height: 30px;
+}
+
+#wp__content .section-account-layout .info__account-header .info__account-title .txt {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+#wp__content .section-account-layout .info__account-header .info__account-subTitle {
+  font-size: .7rem;
+}
+
+#wp__content .section-account-layout .info__account-content .info-profile-wp label.title__form {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+  max-width: 25%;
+}
+
+#wp__content .section-account-layout .info__account-content .info-profile-wp label.title__form {
+  font-size: .9rem;
+  text-align: right;
+}
+
+#wp__content .section-account-layout .info__account-content .info-profile-wp label.title__form ~ input {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 70%;
+          flex: 0 0 70%;
+  max-width: 70%;
+}
+
+#wp__content .section-account-layout .info__account-content .info-profile-wp .add {
+  color: var(--color-highlight);
+  text-decoration: underline;
+  font-size: .9rem;
+  cursor: pointer;
+}
+
+#wp__content .section-account-layout .info__account-content .info-profile-wp .gender-option {
+  position: relative;
+}
+
+#wp__content .section-account-layout .info__account-content .info-profile-wp .gender-option .radio-check__gender {
+  position: absolute;
+  left: -30px;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: 1.5px solid #e1e1e1;
+  cursor: pointer;
+}
+
+#wp__content .section-account-layout .info__account-content .info-profile-wp .gender-option input:checked ~ .radio-check__gender {
+  border-color: var(--primary-color);
+}
+
+#wp__content .section-account-layout .info__account-content .info-profile-wp .gender-option input:checked ~ .radio-check__gender::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  top: 20%;
+  left: 20%;
+  border-radius: 100%;
+  position: absolute;
+  background-color: var(--primary-color);
+}
+
+#wp__content .section-account-layout .info__account-content .info-profile-wp .birthday-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 calc(20%);
+          flex: 0 0 calc(20%);
+}
+
+#wp__content .section-account-layout .info__account-content .info-profile-wp .birthday-item .dropdown-entry {
+  padding: 5px 10px;
+  border: 1px solid #e1e1e1;
+  cursor: pointer;
+}
+
+#wp__content .section-account-layout .info__account-content .info-profile-wp .birthday-item .dropdown-entry:hover {
+  -webkit-box-shadow: 0 0 5px var(--primary-color);
+          box-shadow: 0 0 5px var(--primary-color);
+}
+
+#wp__content .section-account-layout .info__account-content .info-profile-wp .birthday-item .dropdown-entry .icon {
+  color: #a0a0a0;
+}
+
+#wp__content .section-account-layout .info__account-content .info-profile-wp .birthday-item .dropdown-toggle-menu {
+  display: none;
+  margin-top: 5px;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 10;
+  background-color: var(--main-color);
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+#wp__content .section-account-layout .info__account-content .info-profile-wp .birthday-item .dropdown-toggle-menu ul.dropdown-menu__options {
+  height: 200px;
+  overflow-y: auto;
+}
+
+#wp__content .section-account-layout .info__account-content .info-profile-wp .birthday-item .dropdown-toggle-menu ul.dropdown-menu__options::-webkit-scrollbar {
+  width: 5px;
+}
+
+#wp__content .section-account-layout .info__account-content .info-profile-wp .birthday-item .dropdown-toggle-menu ul.dropdown-menu__options::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+}
+
+#wp__content .section-account-layout .info__account-content .info-profile-wp .birthday-item .dropdown-toggle-menu ul.dropdown-menu__options li span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: .9rem;
+}
+
+#wp__content .section-account-layout .info__account-content .info-profile-wp .birthday-item .dropdown-toggle-menu ul.dropdown-menu__options li span:hover {
+  background-color: #f0f0f0;
+}
+
+#wp__content .section-account-layout .info__account-content .info-profile-wp .btn__sale-profile {
+  border: none;
+  padding: 5px 15px;
+  background-color: var(--primary-color);
+  color: var(--main-color);
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+#wp__content .section-account-layout .info__account-content .info-profile-wp[data-info="order"] {
+  height: 325px;
+  overflow-y: auto;
+}
+
+#wp__content .section-account-layout .info__account-content .info-profile-wp[data-info="order"]::-webkit-scrollbar {
+  width: 5px;
+}
+
+#wp__content .section-account-layout .info__account-content .info-profile-wp[data-info="order"]::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+}
+
+#wp__content .section-account-layout .info__account-content .info-profile-wp[data-info="order"] thead tr td {
+  font-size: .9rem;
+  border: 1px solid #e1e1e1;
+  padding: 5px 5px;
+}
+
+#wp__content .section-account-layout .info__account-content .info-profile-wp[data-info="order"] tbody tr td {
+  font-size: .8rem;
+  border: 1px solid #e1e1e1;
+  padding: 5px 5px;
+}
+/*# sourceMappingURL=profile.css.map */

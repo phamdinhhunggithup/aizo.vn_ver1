@@ -1,0 +1,218 @@
+#wp__content {
+    .user-app {
+        & {
+            width: 100vw;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .data-app-bg {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(0,0,0,.6);
+                }
+            }
+        }
+        .user__app-header {
+            .user__app-header-title {
+                padding: 60px 0;
+                text-align: center;
+                color: var(--main-color);
+                // margin-bottom: 30px;
+                a {
+                    color: var(--main-color);
+                    span {
+                        margin-right: 10px;
+                    }
+                }
+                font: {
+                    weight: bold;
+                    size: 2.5rem;
+                }
+                .app__curr {
+                    border-bottom: 3px solid var(--main-color);
+                    padding-bottom: 5px;
+                }
+            }   
+        }
+        .user__app-content {
+            .user__app-content-left {
+                .app-content-banner {
+                    width: 100%;
+                    height: 500px;
+                    .app-content__banner-img {
+                        height: 100%;
+                        .app-content-banner-thumb {
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                            overflow: hidden;
+                            position: relative;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                            }
+                            &::after{
+                                content : "";
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                                background-color: rgba(0,0,0,.6);
+                            }
+                        }
+                    }
+                    .app-content__banner-txt {
+                        top: 30%;
+                        left: 10%;
+                        height: 70%;
+                        width: 70%;
+                        &{
+                            color: var(--main-color);
+                            line-height: 1.4;
+                            font : {
+                                weight: bold;
+                                size: 2rem;
+                            }
+                        }
+                        p {
+                            text-align: justify;
+                        }
+                    }
+                    
+                }
+            }
+            .user__app-content-right {
+                .app-content__formInner {
+                    padding: 30px;
+                    background-color: rgba(0,0,0,0.6);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .wrapper__form-user {
+                        .form__input-group {
+                            padding: 10px 0;
+                            .form-group {
+                                input {
+                                    width: 70%;
+                                    height: 50px;
+                                    padding: 0 15px;
+                                    color: #fff;
+                                    font-size: 17px;
+                                    font-weight: 200;
+                                    background-color: transparent;
+                                    border-bottom: 5px solid #fff;
+                                    border-top-color: transparent;
+                                    border-left-color: transparent;
+                                    border-right-color: transparent;
+                                    font-family: 'Raleway', sans-serif;
+                                    margin: 0 auto 20px;
+                                    display: block;
+                                    outline: none;
+                                    letter-spacing: 1px;
+                                    &:hover {
+                                        border-bottom:5px solid #3970b0;
+                                    }
+                                    &::-webkit-input-placeholder {
+                                        color: #fff !important;
+                                    } 
+                                    &:hover::-webkit-input-placeholder {
+                                        color: #3970b0 !important;
+                                    } 
+                                    &:focus::-webkit-input-placeholder {
+                                        color: #fff !important;
+                                        visibility: visible
+                                    }
+                                    
+                                }
+                                label[for="rememterMe"] {
+                                    & {
+                                        cursor: pointer;
+                                    }
+                                    span.text {
+                                        color: var(--main-color);
+                                        letter-spacing: 1px;
+                                        font: {
+                                            size: .8rem;
+                                        }
+                                    }
+                                    .checkBox__RememterMe {
+                                        display: block;
+                                        width: 20px;
+                                        height: 20px;
+                                        border: 1px solid #9f9f9f;
+                                        margin-right: 15px;
+                                        border-radius: 3px;
+                                        cursor: pointer;
+                                        position: relative;
+                                    }
+                                    input:checked ~ .checkBox__RememterMe {
+                                        background-color: #3970b0;
+                                        border: 1px solid #3970b0;
+                                    }
+                                    input:checked ~ .checkBox__RememterMe::after {
+                                        content: "";
+                                        width: 6px;
+                                        height: 12px;
+                                        position: absolute;
+                                        top: 2px;
+                                        left: 6px;
+                                        transform: rotateZ(45deg);
+                                        border-bottom: 2px solid var(--main-color);
+                                        border-right: 2px solid var(--main-color);
+                                        transition: all .5s;
+                                    }
+                                }
+                            }
+                            .form__input-control {
+                                button {
+                                    width: 70%;
+                                    margin: 20px auto;
+                                    display: block;
+                                    height: 50px;
+                                    text-align: center;
+                                    font-size: 17px;
+                                    font-weight: normal;
+                                    color: #fff;
+                                    background-color: #3970b0;
+                                    border-color: transparent;
+                                    font-family: 'Raleway', sans-serif;
+                                    transition: all 0.5s ease-in-out;
+                                    -webkit-transition: all 0.5s ease-in-out;
+                                    -moz-transition: all 0.5s ease-in-out;
+                                    -o-transition: all 0.5s ease-in-out;
+                                    -ms-transition: all 0.5s ease-in-out;
+                                    cursor: pointer;
+                                }
+                                .operations {
+                                    a {
+                                        padding: 0 10px;
+                                        color: #3970b0;
+                                        font: {
+                                            size: .8rem;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

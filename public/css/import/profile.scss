@@ -1,0 +1,162 @@
+%bg-box {
+    background-color: var(--main-color);
+    padding: 10px;
+}
+#wp__content {
+    .section-account-layout {
+        & {
+            margin-bottom: 30px;
+        }
+        .info__account-header {
+            @extend %bg-box;
+            .info__account-title {
+                color: var(--secondary-textColor);
+                .icon {
+                    display: block;
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 100%;
+                    background-color: var(--main-color);
+                    box-shadow: 0 0 3px rgba(0,0,0,0.2);
+                    text-align: center;
+                    line-height: 30px;
+                    
+                }
+                .txt {
+                    font-weight: bold;
+                    font-size: 1.1rem;
+                }
+            }
+            .info__account-subTitle {
+                font-size: .7rem;
+            }
+        }
+        .info__account-content {
+            @extend %bg-box;
+            .info-profile-wp {
+                label.title__form {
+                    & {
+                        flex: 0 0 25%;
+                        max-width: 25%;
+                    }
+                    
+                    & {
+                        font-size: .9rem;
+                        text-align: right;
+                    }
+                    & ~ input {
+                        flex : 0 0 70%;
+                        max-width: 70%;
+                    }
+                }
+                .add {
+                    color: var(--color-highlight);
+                    text-decoration: underline;
+                    font-size: .9rem;
+                    cursor: pointer;
+                }
+                .gender-option {
+                    position: relative;
+                    .radio-check__gender {
+                        position: absolute;
+                        left: -30px;
+                        top: 0;
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 100%;
+                        border: 1.5px solid #e1e1e1;
+                        cursor: pointer;
+                    }
+                    input:checked ~ .radio-check__gender {
+                        border-color: var(--primary-color);
+                    }
+                    input:checked ~ .radio-check__gender::after {
+                        content : "";
+                        width: 10px;
+                        height: 10px;
+                        top: 20%;
+                        left: 20%;
+                        border-radius: 100%;
+                        position: absolute;
+                        background-color: var(--primary-color);
+                    }
+                }
+                .birthday-item {
+                    flex: 0 0 calc(20%);  
+                    .dropdown-entry {
+                        padding: 5px 10px;
+                        border: 1px solid #e1e1e1;
+                        cursor: pointer;
+                        &:hover {
+                            box-shadow: 0 0 5px var(--primary-color);
+                        }
+                        .icon {
+                            color: #a0a0a0;
+                        }
+                    }
+                    .dropdown-toggle-menu {
+                        display: none;
+                        margin-top: 5px;
+                        width: 100%;
+                        padding: 10px 0;
+                        z-index: 10;
+                        background-color: var(--main-color);
+                        box-shadow: 0 0 3px rgba(0,0,0,0.2);
+                        ul.dropdown-menu__options {
+                            height: 200px;
+                            overflow-y: auto;
+                            &::-webkit-scrollbar {
+                                width: 5px;
+                            }
+                            &::-webkit-scrollbar-thumb {
+                                background: #e1e1e1; 
+                            }
+                            li span {
+                                display: flex;
+                                padding: 5px 10px;
+                                cursor: pointer;
+                                font-size: .9rem;
+                                &:hover {
+                                    background-color: #f0f0f0;
+                                }
+                            }
+                        }
+                    }
+                }
+                .btn__sale-profile {
+                    border: none;
+                    padding: 5px 15px;
+                    background-color: var(--primary-color);
+                    color: var(--main-color);
+                    box-shadow: 0 0 3px rgba(0,0,0,0.2);
+                }
+                &[data-info="order"] {
+                    & {
+                        height: 325px;
+                        overflow-y: auto;
+                        &::-webkit-scrollbar {
+                            width: 5px;
+                        }
+                        &::-webkit-scrollbar-thumb {
+                            background: #e1e1e1; 
+                        }
+                    }
+                    thead {
+                        tr td {
+                            font-size: .9rem;
+                            border: 1px solid #e1e1e1;
+                            padding: 5px 5px;
+                        }
+                    }
+                    tbody {
+                        tr td {
+                            font-size: .8rem;
+                            border: 1px solid #e1e1e1;
+                            padding: 5px 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
